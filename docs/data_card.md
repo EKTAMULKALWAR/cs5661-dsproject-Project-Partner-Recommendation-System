@@ -1,11 +1,11 @@
-📊 Data Card: GitHub Project Partner Recommendation System
+## 📊 Data Card: GitHub Project Partner Recommendation System
 
 📌 Project Overview
 
-Project Title: GitHub Project Partner Recommendation System
+## Project Title: GitHub Project Partner Recommendation System
 Team: Ekta Mulkalwar, Apoorva Durge, Anand Gutte, Mansi Aher, Anvaya Chandrika Gudibanda Sreesha, Shalini Nistala, Shah Drashti Kirtibai, Neel Jaysukhbhai Khunt, Movva Jeevan Sidhardha, Sai Kiran Bandapally
 
-📂 Dataset Summary
+## 📂 Dataset Summary
 
 Dataset Name: GitHub User Profiles Dataset
 
@@ -17,7 +17,8 @@ Data Source: Public GitHub REST API v3
 
 Collection Method: Scraped using custom Python script (requests + GitHub token + geopy)
 
-📄 Features Collected:
+
+## 📄 Features Collected:
 
 Username
 
@@ -41,7 +42,7 @@ Latitude & Longitude (via Geopy)
 
 GitHub Profile URL
 
-🎯 Purpose of Dataset
+## 🎯 Purpose of Dataset
 
 The dataset was collected to power a hybrid recommendation system that suggests project partners based on:
 
@@ -51,7 +52,7 @@ Content-based filtering (similar skills, repositories, languages)
 
 Optional NLP (for those who have bios)
 
-⚙️ Data Collection Process
+## ⚙️ Data Collection Process
 
 API Used: GitHub REST API v3
 
@@ -61,7 +62,7 @@ Rate Limit Handling: Delay with time.sleep() to avoid hitting the GitHub API lim
 
 Geolocation: Used Nominatim from geopy to get lat/lon from location string
 
-✅ Data Preprocessing Summary
+## ✅ Data Preprocessing Summary
 
 Missing values in fields like Bio, Repositories, Languages, Location filled with placeholders
 
@@ -71,7 +72,7 @@ Categorical variables (Languages, Location) encoded using LabelEncoder
 
 Numerical values (Public Repos, Followers, Following) scaled using MinMaxScaler
 
-⚠️ Limitations
+## ⚠️ Limitations
 
 Not all users have bios, location info, or rich repo data
 
@@ -79,7 +80,7 @@ Language detection limited to repo-level data, not user-declared skills
 
 Geolocation dependent on user input (can be vague like "Remote")
 
-🔒 Ethical Considerations
+## 🔒 Ethical Considerations
 
 Only public data was used from GitHub
 
