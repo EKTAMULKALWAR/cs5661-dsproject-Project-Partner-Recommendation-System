@@ -26,7 +26,8 @@ jupyter notebook
 ```
 
  
-📂 Repository Description
+## 📂 Repository Description
+
 This repository includes:
 
 data/: Raw and cleaned GitHub user datasets
@@ -41,7 +42,9 @@ requirements.txt: Python dependencies
 
 
 
-👥 Team Members & Roles
+
+
+## 👥 Team Members & Roles
 
 Ekta Mulkalwar – Lead Data Engineer & Content-Based Modeling SpecialistDesigned and implemented the GitHub data scraping pipeline using REST API and geocoding for enriched metadata. Led preprocessing, handling missing values, and encoding strategies. Developed the content-based filtering logic using similarity measures across repositories, languages, and user metadata. Contributed to the architecture of the hybrid recommendation engine.
 
