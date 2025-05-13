@@ -87,6 +87,8 @@ Geocoded user locations and enriched spatial data.
 Sai Kiran Bandapally – Repo Insights Engineer
 Parsed repositories for language richness and diversity.
 
+---
+
 ## 💡 About
 This system analyzes 5,000+ public GitHub profiles to help users find project partners that match on:
 
@@ -98,6 +100,8 @@ Engagement behavior
 
 All models are modular, allowing future additions such as GitHub activity scores, real-time search, or OAuth-based login.
 
+---
+
 ## 📌 Resources
 Notebook-based experiments: notebooks/
 
@@ -106,4 +110,6 @@ Live Flask API server: backend/app.py
 React frontend app: frontend/src/
 
 Cluster & domain evaluation: UMAP + DBSCAN
+
+
 
